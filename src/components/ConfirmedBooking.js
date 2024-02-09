@@ -1,13 +1,15 @@
 import React from "react";
 
 const ConfirmedBooking = () => {
-    return (
-        <div className="confirm">
-            <h1>Thank you for your <span>reservation</span></h1>
-            <p>Your reservation is confirmed for the date and time you selected. We look forward to seeing you soon!</p>
+    return(
+        <div className="comfirm">
+            <div>
+            <h1>Booking has been <span>confirmed!</span>
+        </h1>
+            </div>
         </div>
 
-    );
-};
+    )
+}
 
 export default ConfirmedBooking;

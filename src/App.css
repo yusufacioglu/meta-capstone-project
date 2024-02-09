@@ -1,17 +1,17 @@
-body {
+
+body{
   width: 100%;
   margin: 0 auto;
 }
 
-li {
+li{
   list-style: none;
 }
-
-a {
+a{
   text-decoration: none;
 }
 
-nav {
+nav{
   z-index: 10001;
 }
 
@@ -28,13 +28,13 @@ nav ul li {
   padding: 1em;
 }
 
-nav ul li a {
+nav ul li a{
   color: #000;
 }
 
-nav ul li a:hover {
+nav ul li a:hover{
   text-decoration: underline solid #495E57;
-
+  
 }
 
 .menu-icon {
@@ -77,9 +77,9 @@ nav ul li a:hover {
 }
 
 .header section {
-  color: #EDEFEE;
-  padding: 10px 13%;
-  position: relative;
+color: #EDEFEE;
+padding: 10px 13%;
+position: relative;
 }
 
 
@@ -111,7 +111,7 @@ button {
   cursor: pointer;
 }
 
-.banner-img {
+.banner-img{
   position: absolute;
   right: 13%;
   top: 15%;
@@ -125,26 +125,20 @@ button {
 }
 
 
-form,
-.comfirm {
+form, .comfirm{
   padding: 10px 13%;
 }
 
-.formField {
+.formField{
   padding: 50px 20px;
 }
 
-input,
-label {
+input, label{
   display: inline-block;
   margin-right: 20px;
   margin-bottom: 20px;
 }
-
-#book-date,
-#book-time,
-#book-guests,
-#book-occasion {
+#book-date, #book-time, #book-guests, #book-occasion{
   background: #bdbdbd43;
   padding: 8px 24px;
   border: none;
@@ -152,7 +146,7 @@ label {
   border-radius: 2px;
 }
 
-.btnReceive input {
+.btnReceive input{
   padding: 12px 16px;
   margin-top: 20px;
   background: #495e57;
@@ -162,30 +156,29 @@ label {
 
 }
 
-.comfirm span {
+.comfirm span{
   color: blue;
 }
 
 
 /* menu items */
 
-.menu-container {
+.menu-container{
   margin: 110px auto;
   padding: 10px 13%;
 }
 
-.menu-container h2 {
+.menu-container h2{
   color: #000;
 }
 
-.menu-header {
+.menu-header{
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
-
-.cards {
+.cards{
   margin-top: 30px;
   display: flex;
   justify-content: space-between;
@@ -194,67 +187,67 @@ label {
   gap: 2rem 1rem;
 }
 
-.menu-items {
+.menu-items{
   /* height: 400px; */
   width: 350px;
   background: #a9c8be;
   border-radius: 8px;
 }
 
-.menu-container img {
+.menu-container img{
   width: 100%;
   height: 233px;
   border-radius: 8px;
 }
 
-.menu-content {
+.menu-content{
   padding: 5px 15px;
 }
 
 
-.menu-content .heading {
+.menu-content .heading{
   display: flex;
   justify-content: space-between;
 }
 
-.orderbtn {
+.orderbtn{
   padding: 5px 12px;
   margin-bottom: 20px;
   font-size: 16px;
   font-weight: 600;
 }
 
-footer section {
+footer section{
   padding: 10px 13%;
   display: flex;
   justify-content: space-between;
   align-items: start;
 }
 
-.company-info img {
+.company-info img{
   margin-top: 12px;
   cursor: pointer;
   width: 200px;
 }
 
-.company-info p {
+.company-info p{
   width: 320px;
 }
 
-footer h3 {
+footer h3{
   font-size: 18px;
 }
 
-footer ul {
+footer ul{
   padding: 0;
 }
 
-footer ul li {
+footer ul li{
   padding: 8px 0;
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px){
   .menu-icon {
     display: block;
   }
@@ -270,56 +263,51 @@ footer ul li {
     padding: 20px 0;
   }
 
-  .navbar {
-    background: #fff;
+  .navbar{
+    background:#fff;
     padding: 10px 8%;
   }
 
-  nav ul li a {
+  nav ul li a{
     color: #fff;
   }
 
-  .bar {
+  .bar{
     background: #333333;
   }
 
-  .banner-img {
+  .banner-img{
     display: none;
   }
 
-  form,
-  .comfirm {
+  form, .comfirm{
     padding: 10px 8%;
   }
 
 
-  .header section,
-  .menu-container {
+  .header section, .menu-container{
     padding: 10px 8%;
   }
-
-  .menu-container {
+  .menu-container{
     margin: 20px 0;
   }
-
-  .menu-header {
+  .menu-header{
     justify-content: flex-start;
   }
 
-  .menu-items {
+  .menu-items{
     width: 100%;
   }
 
-  footer section {
+  footer section{
     padding: 10px 8%;
     flex-direction: column;
   }
-
-  .company-info p {
+  .company-info p{
     width: 100%;
   }
 }
 
-.hidden {
+.hidden{
   display: none;
 }
